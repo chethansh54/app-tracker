@@ -30,7 +30,7 @@ def open_app():
         tracked_data[current_hour] = tracked_data.get(current_hour) + time_difference
 
 
-for i in range(2):
+for i in range(5):
     print(f"App Opened - {i} time")
     open_app()
     print(f"App Closed")
